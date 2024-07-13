@@ -1,20 +1,20 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(143, 152, 168);
+    background-color: azure;
     opacity: 3;
     font-family: Arial, sans-serif;
 }
 #track{
     
-    color: rgb(3, 2, 49);
+    color: red;
     text-align: center;
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 40px;
 }
 .head{
     padding: 10px 0;
-    background: #3a0dce;
+    background: #15a22f;
     
 }
 /* nav{
@@ -32,21 +32,21 @@ li{
    
 }
 a{
-    color: rgb(238, 234, 231);
+    color: rgb(47, 13, 150);
     text-decoration: none;
     font-weight: bold;
     padding: 10px 40px;
 }
 a:hover{
-    color: aliceblue;
-    background-color: rgb(199, 159, 26);
+    color: rgb(180, 121, 33);
+    background-color: white;
     border-radius: 5px;
 }
 i{
     margin-right: 10px;
 }
 footer {
-    background: #3907c1;
+    background: #1d9e3e;
     color: whitesmoke;
     text-align: center;
     padding: 20px 0;
@@ -80,7 +80,7 @@ footer {
     color: #e8491d;
 }
 .navs{
-    color: black;
+    color: rgb(37, 12, 161);
 }
 .navs ul{
     text-align: left;
@@ -92,22 +92,22 @@ footer {
     bottom: 40px;
 }
 .navs ul li a{
-    color: coral;
+    color: rgb(51, 10, 199);
     padding: 10px 10px;
 }
 .navs ul li a:hover{
-    color: antiquewhite;
+    color: rgb(173, 145, 16);
     background-color: black;
     border-radius: 5px;
 }
 .hero{
     text-align: center;
     padding: 20px 0px;
-    color: #ffffff;
+    color: #960e0e;
 }
 .hero h2{
     margin-bottom: 20px;
-    font-size: 3em;
+    font-size: 2em;
 }
 .hero p{
     font-size: 1.2em;
@@ -115,7 +115,7 @@ footer {
     padding: 0px 10px;
 }
 .cta-button {
-    background-color: #e8491d;
+    background-color: #171bf0;
     color: #ffffff;
     text-decoration: none;
     padding: 10px 20px;
@@ -125,5 +125,5 @@ footer {
     margin: 20px 30px;
 }
 .cta-button:hover {
-    background-color: #35424a;
+    background-color: #0eb432;
 }
