@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Registration Form</h1>
-    <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="POST" class="fom">
+    <form action="./Register.php" method="POST" class="fom">
         <label for="fname">FirstName:</label>
         <input type="text" id="name" name="FirstName" required>
         <br><br>
@@ -25,11 +25,11 @@
         <input type="password" id="pword" name="Password" required>
         <br><br>
         <label for="gender">Gender:</label>
-        <input type="radio" id="gender" value="male">Male
-        <input type="radio" id="gender" value="female">Female
-        <input type="radio" id="gender" value="other">other
+        <input type="radio" name="Gender" value="male">Male
+        <input type="radio" name="Gender" value="female">Female
+        <input type="radio" name="Gender" value="other">other
         <br><br>
-        <button><input type="Submit" id="sub"></button>
+        <input type="Submit" id="sub">
     </form>
     <p><b>Already Have An Account?</b> <a href="Login.html">Log In</a></p>
 </body>
