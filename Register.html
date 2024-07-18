@@ -9,29 +9,33 @@
 <body>
     
     <h1>Registration Form</h1>
-    <form action="./Register.php" method="POST" class="fom">
-        <label for="fname">FirstName:</label>
-        <input type="text" id="name" name="FirstName" required>
-        <br><br>
+    <form action="" method="POST" class="fom">
+        <label for="Username">Userame:</label>
+        <input type="text" id="name" name="Username" required>
+        <!-- <br><br>
         <label for="lname">LastName:</label>
-        <input type="text" id="name" name="LastName" required>
+        <input type="text" id="name" name="LastName" required> -->
         <br><br>
         <label for="email">Email:</label>
         <input type="email" id="email" name="Email" required>
         <br><br>
-        <label for="phnum">PhoneNumber:</label>
+        <label for="phnum">Phone:</label>
         <input type="number" id="phone" name="PhoneNumber" required>
         <br><br>
         <label for="pword">Password:</label>
         <input type="password" id="pword" name="Password" required>
         <br><br>
         <label for="gender">Gender:</label>
-        <input type="radio" name="Gender" value="male">Male
-        <input type="radio" name="Gender" value="female">Female
-        <input type="radio" name="Gender" value="other">other
+        <input type="radio" name="Gender" id="Gender" value="male">Male
+        <input type="radio" name="Gender" id="Gender" value="female">Female
+        <input type="radio" name="Gender" id="Gender" value="other">other
         <br><br>
         <input type="Submit" id="sub">
+        <p id="auth-msg"></p>
     </form>
-    <p><b>Already Have An Account?</b> <a href="Login.html">Log In</a></p>
+    <p><b>Already Have An Account?</b> <a href="Login.html">Log In here</a></p>
+
+    <!-- script file -->
+     <script src="./Register.js"></script>
 </body>
 </html>

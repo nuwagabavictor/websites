@@ -23,6 +23,9 @@ h1{
     display: block;
     flex-direction: column;
 } */
+#auth-msg{
+    padding: 0;
+}
 label{
     color: black;
     margin-bottom: 8px;

@@ -5,16 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LogIn</title>
     <link rel="stylesheet" href="./Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <h1>Login Here</h1>
     <form action="" method="post" class="fome">
-        <b><input type="text" id="name" name="name" placeholder="Username/Email"></b>
+        <i class="fas fa-user-plus"></i>
+        <b><input type="text" id="email" name="email" placeholder="Username/Email"></b>
         <br><br>
         <b><input type="password" id="password" name="password" placeholder="Password"></b>
         <br><br>
+        <input type="checkbox">
+        <span style="color: brown;">Remember Me</span>
+        <br><br>
         <button type="submit"><b>Log In</b></button>
+        <p id="auth-msg"></p>
     </form>
+    <div class="forgot">
+        <a href="#">Forgot Password?</a>
+    </div>
+    <div class="privacy">
+        <a href="#">Privacy Policy</a>
+    </div>
     <p>Don't have An Account?<a href="./Register.html">Register Here</a></p>
+
+    <!-- script file -->
+    <script src="./Login.js"></script>
 </body>
 </html>
